@@ -3,7 +3,7 @@ from fastapi import FastAPI, Depends, HTTPException, Header
 
 ALLOWED_KEYS = {
     "esp32-001": "DEFAULT_API_KEY_1234",
-    "esp32-002": "API_KEY_ESP32_002!!!!!!",
+    "esp32-002": "API_KEY_ESP32_002",
 }
 
 async def verify_api_key(x_api_key: str = Header(None)):
