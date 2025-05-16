@@ -1,0 +1,134 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files
+*.db
+*.sqlite
+*.db-journal
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyPI packaging files
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# FastAPI
+# Cache and temp files
+*.py~
+*.bak
+*.tmp
+
+# Development server files
+uvicorn.log
+test.db
+
+# JWT/security files
+*.key
+*.pem
+*.cert
+
+# Alembic (if using database migrations)
+alembic.ini
+/alembic/versions/*
+
+# Docker (if applicable)
+docker-compose.override.yml
+.env.prod
+
+# Database files (SQLite/PostgreSQL)
+*.db
+*.sqlite
+pg_data/  # PostgreSQL data directory
+migrations/  # If not using Alembic
+
+# Pytest cache
+.pytest_cache/
+
+# Auto-generated docs
+/site/  # For mkdocs or similar
+/docs/_build/  # Sphinx docs
+
+# Serverless/Cloud
+.serverless/
+.aws/
+.gcloudignore
+
+# CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+
